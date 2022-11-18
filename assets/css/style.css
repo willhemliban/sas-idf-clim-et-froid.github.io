@@ -228,6 +228,7 @@ h6 {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+  margin-right: 5px;
 }
 
 .navbar a:hover,
@@ -593,17 +594,6 @@ section {
 --------------------------------------------------------------*/
 .brands {
   padding-top: 20px;
-}
-
-.brands .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
-  filter: grayscale(100);
-}
-
-.brands .swiper-slide img:hover {
-  filter: none;
-  opacity: 1;
 }
 
 .brands .swiper-pagination {
